@@ -1,6 +1,6 @@
 # WiFi F#cker
 
-WiFi F#cker is a cutting-edge tool crafted in F# specifically tailored for use with the ESP8286 module. This versatile tool empowers users to execute sophisticated WiFi attacks, including Evil Twin and Deauthentication attacks, for advanced network security testing.
+WiFi F#cker is a cutting-edge tool crafted specifically tailored for use with the ESP8286 module. This versatile tool empowers users to execute sophisticated WiFi attacks, including Evil Twin and Deauthentication attacks, for advanced network security testing.
 
 ## Features
 
@@ -15,26 +15,19 @@ WiFi F#cker is an educational tool intended for legitimate security testing purp
 ## Setup
 
 To unleash the full potential of WiFi F#cker, follow these steps to set up the ESP8286 module in Arduino:
-
-1. **Install the ESP8286 Board in Arduino**: Navigate to the [ESP8286 Community Forum](https://arduino.esp8286.com/stable/package_esp8286com_index.json)
-2. and follow the provided instructions to install the ESP8286 board in your Arduino IDE.
-   
-3. **Load the WiFi F#cker Sketch**: Download the WiFi F#cker sketch from this repository and import it into your Arduino IDE.
-   
-4. **Configure the Sketch**: Customize the WiFi F#cker sketch with your network settings and desired attack parameters.
-   
-5. **Upload the Sketch to the ESP8286**: Connect the ESP8286 module to your computer via USB and upload the configured WiFi F#cker sketch.
-   
-6. **Connect to WiFi F#cker Network**: Upon successful upload, locate and connect to the "WiFi F#cker" network using the password "FuckWiFi".
-   
-7. **Initiate the Attack**: Once connected to the WiFi F#cker network, utilize the command line interface to commence the attack and enhance your network security testing capabilities.
+1. Install Arduino IDE
+2. In Arduino go to File -> Preferences add this URL to Additional Boards Manager URLs -> https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json
+3. In Arduino go to Tools -> Board -> Boards Manager search for and install the deauther package
+4. Download and open PhiSiFi with Arduino IDE
+5. Select an ESP8266 Deauther board in Arduino under tools -> board
+6. Connect your device and select the serial port in Arduino under tools -> port
+7. Click Upload button
 
 Note: Ensure your ESP8286 module has a minimum of 4MB flash memory for optimal performance.
 
 ## Usage
 
-To effectively utilize WiFi F#cker and explore its capabilities, connect to the "WiFi F#cker" network with the password "FuckWiFi" 
-and leverage the command line interface with the following commands:
+To effectively utilize WiFi F#cker and explore its capabilities, connect to the "WiFi F#cker" network and use the password "FuckWiFi" and leverage the command line interface with the following commands:
 
 ## License
 
