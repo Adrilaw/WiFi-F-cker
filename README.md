@@ -2,7 +2,7 @@
 ![ESP8286](https://github.com/Adrilaw/WiFi-Fucker/assets/65346144/e54dc17e-f9e4-495c-a609-b26146d23050)
 
 
-WiFi F#cker is a cutting-edge tool crafted specifically tailored for use with the ESP8286 module. This versatile tool empowers users to execute sophisticated WiFi attacks, including Evil Twin and Deauthentication attacks, for advanced network security testing.
+WiFi F#cker is a cutting-edge tool crafted specifically tailored for use with the ESP8266 module. This versatile tool empowers users to execute sophisticated WiFi attacks, including Evil Twin and Deauthentication attacks, for advanced network security testing.
 
 ## Features
 
