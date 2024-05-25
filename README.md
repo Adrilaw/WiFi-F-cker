@@ -8,7 +8,7 @@ WiFi F#cker is a cutting-edge tool crafted specifically tailored for use with th
 
 - **Evil Twin Attack**: Create a deceptive rogue access point to intercept network traffic and extract sensitive data discreetly.
 - **Deauthentication Attack**: Forcefully disconnect clients from a target network, compelling them to reconnect and potentially exposing their credentials.
-- **ESP8286 Compatibility**: WiFi F#cker is intricately designed to seamlessly integrate with the ESP8266 module, ensuring optimal performance and flexibility for WiFi penetration testing.
+- **ESP8266 Compatibility**: WiFi F#cker is intricately designed to seamlessly integrate with the ESP8266 module, ensuring optimal performance and flexibility for WiFi penetration testing.
 
 ## Disclaimer
 
@@ -16,7 +16,7 @@ WiFi F#cker is an educational tool intended for legitimate security testing purp
 
 ## Setup
 
-To unleash the full potential of WiFi F#cker, follow these steps to set up the ESP8286 module in Arduino:
+To unleash the full potential of WiFi F#cker, follow these steps to set up the ESP8266 module in Arduino:
 1. Install Arduino IDE
 2. In Arduino go to File -> Preferences add this URL to Additional Boards Manager URLs -> https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json
 3. In Arduino go to Tools -> Board -> Boards Manager search for and install the deauther package
